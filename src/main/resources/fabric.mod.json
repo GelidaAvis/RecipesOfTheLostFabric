@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "uncraftable",
+  "version": "4.7.1",
+
+  "name": "Recipes of the Lost",
+  "description": "A simple mod that adds a bunch of recipes for uncraftable items",
+  "authors": [
+    "Avis"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "GNU GPL",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.avis.uncraftable.Uncraftable"
+    ]
+  },
+  "mixins": [
+    "uncraftable.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
