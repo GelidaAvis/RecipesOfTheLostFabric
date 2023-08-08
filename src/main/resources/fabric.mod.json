@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "uncraftable",
-  "version": "4.8",
+  "version": "4.9",
 
   "name": "Recipes of the Lost",
   "description": "A simple mod that adds a bunch of recipes for uncraftable items",
@@ -13,7 +13,7 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "GNU GPL",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
