@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "uncraftable",
-  "version": "4.9",
+  "version": "4.9.1",
 
   "name": "Recipes of the Lost",
   "description": "A simple mod that adds a bunch of recipes for uncraftable items",
